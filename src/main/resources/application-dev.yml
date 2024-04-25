@@ -10,13 +10,13 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://www.youlai.tech:3306/youlai_boot?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
-    username: youlai
+    url: jdbc:mysql://127.0.0.1:3306/yuki_backend?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
+    username: root
     password: 123456
   data:
     redis:
       database: 6
-      host: www.youlai.tech
+      host: 127.0.0.1
       port: 6379
       password: 123456
       timeout: 10s
@@ -110,7 +110,7 @@ springdoc:
   group-configs:
     - group: 'default'
       paths-to-match: '/**'
-      packages-to-scan: com.youlai.system.controller
+      packages-to-scan: com.lolineet.system.controller
   default-flat-param-object: true
 
 # knife4j的增强配置，不需要增强可以不配 https://doc.xiaominfo.com/docs/quick-start

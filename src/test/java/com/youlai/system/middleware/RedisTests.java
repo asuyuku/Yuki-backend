@@ -1,6 +1,6 @@
-package com.youlai.system.middleware;
+package com.lolineet.system.middleware;
 
-import com.youlai.system.model.entity.SysUser;
+import com.lolineet.system.model.entity.SysUser;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
